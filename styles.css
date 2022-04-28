@@ -180,6 +180,7 @@ button:hover {
     min-width: 700px;
     display: grid;
     grid-template-columns: 2fr .75fr;
+    grid-template-rows: 40px 3fr;
     padding-bottom: 20px;
     background-color: rgb(213, 213, 213);
 }
@@ -193,8 +194,8 @@ button:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows:  1fr 1fr 1fr;
-    gap: 15px;
-    row-gap: 20px;
+    column-gap: 15px;
+    /* row-gap: 20px; */
     padding-left: 20px;
     padding-right: 20px;
     border: none;
@@ -206,7 +207,7 @@ button:hover {
 
 .projects-head {
     margin: 15px 0px 10px 20px;
-    
+    max-height: 20px;
     grid-column: 1 / 2;
 }
 
@@ -221,7 +222,7 @@ button:hover {
     display: grid;
     grid-template-rows: 2fr 1fr;
     
-    height: 140px;
+    height: 160px;
     background-color: white;
     border-radius: 5px;
     border-left: 7px solid gold;
