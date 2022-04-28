@@ -227,6 +227,7 @@ button:hover {
     border-radius: 5px;
     border-left: 7px solid gold;
     padding: 20px 10px 10px 10px;
+    box-shadow: 5px 5px 5px -5px gray;
 }
 .article-text {
     font-size: 12px;
@@ -263,7 +264,8 @@ button:hover {
     max-width: 210px;
     padding: 10px;
     border-radius: 5px;
-    background-color: white;   
+    background-color: white; 
+    box-shadow: 5px 5px 5px -5px gray;  
 }
 
 .trending-articles {
@@ -273,7 +275,8 @@ button:hover {
     grid-template-rows: repeat(4, 1fr);
     padding: 10px;
     border-radius: 5px;
-    background-color: white;   
+    background-color: white;
+    box-shadow: 5px 5px 5px -5px gray;   
 }
 
 .trending-articles p {
